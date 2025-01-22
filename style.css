@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home-header {
+    background: url(assets/homePageMain.jpg);
+    background-color: #d0ebde;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 40px;
+    color: #fff;
+    border-bottom: 20px solid #d0ebde;
+}
+
+.txt-container {
+    padding: 24px;
+    width: 50%;
+    backdrop-filter: blur(20px);
+}
+
+.txt-container h1 {
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+.txt-container p {
+    font-size: 1.4em;
+    font-style: oblique;
+}
+
+a {
+    color: #add8e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.25s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.img-txt-item {
+    display: flex;
+    border: 20px solid #d0ebde;
+    border-top: 0px;
+}
+
+.img-container {
+    width: 50%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+
+.flex-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #2e2e2e;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.flex-container h2 {
+    font-weight: lighter;
+}
+
+div[data-bg="image1"] {
+    background-image: url(assets/restaurant.jpg);
+}
+
+div[data-bg="image2"] {
+    background-image: url(assets/groceries.jpg);
+}
+
+div[data-bg="image3"] {
+    background-image: url(assets/lodging.jpg);
+}
+
+div[data-bg="image4"] {
+    background-image: url(assets/entertainment.jpg);
+    background-size: 160%;
+    height: auto;
+}
+
+div[data-bg="image5"] {
+    background-image: url(assets/sightseeing.jpg);
+}
+
+div[data-bg="image6"] {
+    background-image: url(assets/airplane.jpg);
+}
+
+div[data-bg="image7"] {
+    background-image: url(assets/taxi.jpg);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 150px;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+#faqs-header {
+    color: #000;
+    background-color: #d0ebde;
+}
+
+#faqs-header p {
+    font-size: 1.2em;
+}
+
+#faqs-container {
+    display: flex;
+    height: 100vh;
+    font-size: 1.2em;
+}
+
+#faqs-header a {
+    color: #06376a;
+}
+
+#faqs-container h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.2em;
+}
+
+#faqs-container li {
+    margin: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-image: url(assets/faqs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
